@@ -38,7 +38,7 @@ int relay = 5;
 bool isHeating = false;
 unsigned int measureCountHigh = 0;
 unsigned int measureCountLow = 0;
-double targetTemp = 80.00; //42.00;
+double targetTemp = 42.00;
 
 void setup() {
   Serial.begin(9600);
@@ -89,7 +89,7 @@ void loop() {
     measureCountLow = 0;
     isHeating = false;
     digitalWrite(relay, LOW);
-    // delay(90000);
+    delay(90000);
   }
 
 }
