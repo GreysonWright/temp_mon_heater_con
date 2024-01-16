@@ -38,7 +38,7 @@ int relay = 5;
 bool isHeating = false;
 unsigned int measureCountHigh = 0;
 unsigned int measureCountLow = 0;
-double targetTemp = 42.00;
+double targetTemp = 35.00;
 
 void setup() {
   Serial.begin(9600);
